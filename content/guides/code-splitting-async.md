@@ -330,7 +330,7 @@ Use the last argument to `require.ensure()` in order to specify the name of the 
 
 ### Error callback
 
-Since webpack 2.4.0, an error callback can be as third argument to `require.ensure()`. This allows to address errors which occur when dynamically loading the chunk:
+Since webpack 2.4.0, an error callback can be a third argument to `require.ensure()`. This allows to address errors which occur when dynamically loading the chunk:
 
 ```javascript
 require.ensure([], function(require) {
